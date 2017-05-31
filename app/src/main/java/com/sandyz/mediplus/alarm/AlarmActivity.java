@@ -73,6 +73,7 @@ public class AlarmActivity extends AppCompatActivity {
 
         name = (EditText) findViewById(R.id.name_alarm);
         date_et = (EditText) findViewById(R.id.date_alarm);
+
         time_et = (EditText) findViewById(R.id.time_alarm);
 
     }
