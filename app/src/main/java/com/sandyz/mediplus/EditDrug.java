@@ -15,6 +15,7 @@ import com.sandyz.mediplus.databes.dbHelper;
 
 public class EditDrug extends AppCompatActivity {
     dbHelper db;
+
     SQLiteDatabase database;
 
     int id;
