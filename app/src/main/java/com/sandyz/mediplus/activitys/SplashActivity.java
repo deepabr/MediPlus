@@ -1,8 +1,11 @@
-package com.sandyz.mediplus;
+package com.sandyz.mediplus.activitys;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+
+import com.sandyz.mediplus.R;
+import com.sandyz.mediplus.activitys.HomeActivity;
 
 public class SplashActivity extends Activity {
 

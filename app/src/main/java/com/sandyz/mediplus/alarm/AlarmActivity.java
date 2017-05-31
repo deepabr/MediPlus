@@ -12,7 +12,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -23,7 +22,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
-import com.sandyz.mediplus.AlarmList;
+import com.sandyz.mediplus.activitys.AlarmList;
 import com.sandyz.mediplus.R;
 import com.sandyz.mediplus.databes.AlarmDb;
 import com.sandyz.mediplus.databes.dbHelper;

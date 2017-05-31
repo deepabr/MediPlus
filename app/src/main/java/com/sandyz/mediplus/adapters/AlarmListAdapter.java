@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.sandyz.mediplus.DrugsData;
+import com.sandyz.mediplus.beans.DrugsData;
 import com.sandyz.mediplus.R;
 
 import java.util.ArrayList;

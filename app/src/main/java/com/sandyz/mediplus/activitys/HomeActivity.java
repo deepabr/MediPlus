@@ -1,4 +1,4 @@
-package com.sandyz.mediplus;
+package com.sandyz.mediplus.activitys;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -13,7 +13,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.sandyz.mediplus.R;
+import com.sandyz.mediplus.adapters.Recyler_Click;
 import com.sandyz.mediplus.adapters.Recycler_Adapter;
+import com.sandyz.mediplus.beans.DrugsData;
 import com.sandyz.mediplus.databes.dbHelper;
 
 import java.util.ArrayList;

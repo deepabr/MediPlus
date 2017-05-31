@@ -1,4 +1,4 @@
-package com.sandyz.mediplus;
+package com.sandyz.mediplus.activitys;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -9,8 +9,10 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ListView;
 
+import com.sandyz.mediplus.R;
 import com.sandyz.mediplus.adapters.AlarmListAdapter;
 import com.sandyz.mediplus.alarm.AlarmActivity;
+import com.sandyz.mediplus.beans.DrugsData;
 import com.sandyz.mediplus.databes.AlarmDb;
 import com.sandyz.mediplus.databes.dbHelper;
 

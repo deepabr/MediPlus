@@ -1,4 +1,4 @@
-package com.sandyz.mediplus;
+package com.sandyz.mediplus.beans;
 
 /**
  * Created by Sumeet on 20-05-2017.

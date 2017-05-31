@@ -1,4 +1,4 @@
-package com.sandyz.mediplus;
+package com.sandyz.mediplus.activitys;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.sandyz.mediplus.R;
 import com.sandyz.mediplus.databes.dbHelper;
 
 public class EditDrug extends AppCompatActivity {

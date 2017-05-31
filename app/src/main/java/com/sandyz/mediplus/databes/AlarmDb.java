@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.sandyz.mediplus.DrugsData;
+import com.sandyz.mediplus.beans.DrugsData;
 
 import java.util.ArrayList;
 

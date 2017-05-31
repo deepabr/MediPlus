@@ -1,4 +1,4 @@
-package com.sandyz.mediplus;
+package com.sandyz.mediplus.activitys;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.sandyz.mediplus.R;
 import com.sandyz.mediplus.databes.dbHelper;
 
 public class AddDrugs extends AppCompatActivity {
