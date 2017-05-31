@@ -4,6 +4,9 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -15,6 +18,8 @@ public class EditDrug extends AppCompatActivity {
     SQLiteDatabase database;
 
     int id;
+
+    String share;
 
 
     EditText name,desp,price;
@@ -36,6 +41,8 @@ public class EditDrug extends AppCompatActivity {
         String descp_bund = getIntent().getExtras().getString("Descp");
         String price_bund = getIntent().getExtras().getString("Price");
        id =getIntent().getExtras().getInt("Id");
+
+        share= name_bund + " " + descp_bund + " " + price_bund;
 
         name.setText(name_bund);
         desp.setText(descp_bund);
@@ -65,4 +72,27 @@ public class EditDrug extends AppCompatActivity {
         startActivity(goback);
 
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.share, menu);
+        return super.onCreateOptionsMenu(menu);
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.share){
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT, share);
+            sendIntent.setType("text/plain");
+            startActivity(sendIntent);
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
 }
