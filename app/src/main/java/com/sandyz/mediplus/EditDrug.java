@@ -19,6 +19,7 @@ public class EditDrug extends AppCompatActivity {
 
     int id;
 
+
     String share;
 
 
